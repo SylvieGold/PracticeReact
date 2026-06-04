@@ -10,7 +10,7 @@ function FetchMore2() {
     }, [])
 
   return (
-    <div className=' min-h-screen bg-[#151414] grid grid-cols-3 gap-15'>
+    <div className=' min-h-screen bg-[#151414] grid grid-cols-3 gap-16'>
         {
             moreData ?
             moreData.map((item)=>(
